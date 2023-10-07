@@ -1,0 +1,33 @@
+---
+title: "Resume"
+---
+
+::: {.content-hidden unless-format="pdf"}
+::: center
+**Alison Obright**
+<p>obrig005@umn.edu | 763-xxx-xxxx | [my address here]</p>
+:::
+:::
+
+::: {.content-hidden when-format="docx"}
+:::{.content-hidden when-format="ppx"}
+
+## Work experience
+{{< include source_docs/_resume_workexperience.qmd >}}
+
+## Courses taught
+{{< include source_docs/_resume_coursestaught.qmd >}}
+
+## Project experience
+{{< include source_docs/_resume_projectexperience.qmd >}}
+
+## Community Engagement
+{{< include source_docs/_resume_communityengagement.qmd >}}
+
+## Publications
+{{< include source_docs/_publications.qmd >}}
+
+## Conference Prentations
+{{< include source_docs/_presentations.qmd >}}
+:::
+:::
